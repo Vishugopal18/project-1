@@ -1,0 +1,23 @@
+create database mec3;
+create table mec3.students(
+serial int,
+name varchar(20),
+roll varchar(20),
+dept varchar(20),
+clg varchar(30),
+place varchar(11)
+);
+describe mec3.students;
+insert into mec3.students value (1, "jan", "20ppp4", "bme", "mce", "rasi"),
+(2, "san", "30kkk2", "bme", "mce", "rasi"),
+(3, "sabeena", "34ll56", "bme", "mce", "rasi"),
+(4, "arthi", "66ujo9" , "bme", "mce", "rasi"),
+(5, "swetha", "kk7999jo9" , "bme", "mce", "rasi"),
+(6, "banu", "30kiuw" , "bme", "mce", "rasi"),
+(7, "rama", "66ujo9" , "bme", "mce", "rasi"),
+(9, "nandhu", "556huj" , "bme", "mce", "rasi"),
+(10, "nivetha", "66thus" , "bme", "mce", "rasi"),
+(11, "vishvashini", "vishvashini" , "vishvashini", "vishvashini", "vishvashini");
+select*from mec3.students;
+
+
